@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ticketing system-vanio14", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketLybrary", "TicketLybrary\TicketLybrary.csproj", "{F37DD3DC-0489-4BFD-955C-B4CFEC41EEB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestPriceAndStringType", "UnitTestPriceAndStringType\UnitTestPriceAndStringType.csproj", "{7626B705-44F5-47B3-B388-69EDB4D771BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{F37DD3DC-0489-4BFD-955C-B4CFEC41EEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F37DD3DC-0489-4BFD-955C-B4CFEC41EEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F37DD3DC-0489-4BFD-955C-B4CFEC41EEB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7626B705-44F5-47B3-B388-69EDB4D771BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7626B705-44F5-47B3-B388-69EDB4D771BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7626B705-44F5-47B3-B388-69EDB4D771BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7626B705-44F5-47B3-B388-69EDB4D771BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
