@@ -4,19 +4,21 @@ using System.Text;
 
 namespace TicketLybrary
 {
-  public  class Car
+  public  class Car:BaseClass
   {
       public string Licenseplate;
       public DateTime Date;
 
-      public double Price()
+      public double CarPrice240()
       {
-          return 240;
+          double price = Price;
+          return price = 240;
       }
 
-      public string VehicleType()
+      public string VehicleTypeForCar()
       {
-          return "Car";
+          string vehicletype = Vehicle;
+          return vehicletype="Car";
       }
   }
 }
