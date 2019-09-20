@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace TicketLybrary
 {
@@ -35,7 +36,7 @@ namespace TicketLybrary
 
           }
             return price = 240 * 0.80;
-            return price;
+           
       }
 
         /// <summary>

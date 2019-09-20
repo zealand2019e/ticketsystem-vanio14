@@ -16,7 +16,7 @@ namespace TicketLybrary
            {
                if (value.Length > 7)
                {
-                   throw new Exception("License plate must be more than 7 charaters ");
+                   throw new  Exception ("License plate must be more than 7 charaters ");
                }
                else
                {
