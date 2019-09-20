@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace TicketLybrary
+{
+  public  class Car:Vehicle
+  {
+        //public string Licenseplate;
+        //public DateTime Date;
+
+        /// <summary>
+        /// Show Car price
+        /// </summary>
+        /// <returns></returns>
+
+        public override double Price()
+      {
+          double price = 240;
+          return price;
+      }
+        /// <summary>
+        /// Show Car Vehicle type
+        /// </summary>
+        /// <returns></returns>
+      public override string VehicleType()
+      {
+          return "Car";
+      }
+  }
+}

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="TicketLybrary">
+      <HintPath>..\..\..\..\Desktop\ticket task 1\TicketLybrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="extern dll\Car.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="extern dll\MC.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="extern dll\Vehicle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>

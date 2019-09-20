@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary", "ClassLibrar
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ticketing system-vanio14", "Ticketing system-vanio14", "{D09A37AE-235E-4CA5-BD16-76270B8692C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketLybrary", "TicketLybrary\TicketLybrary.csproj", "{F37DD3DC-0489-4BFD-955C-B4CFEC41EEB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketLybrary", "TicketLybrary\TicketLybrary.csproj", "{F37DD3DC-0489-4BFD-955C-B4CFEC41EEB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestPriceAndStringType", "UnitTestPriceAndStringType\UnitTestPriceAndStringType.csproj", "{7626B705-44F5-47B3-B388-69EDB4D771BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestPriceAndStringType", "UnitTestPriceAndStringType\UnitTestPriceAndStringType.csproj", "{7626B705-44F5-47B3-B388-69EDB4D771BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreBaeltTicketLybrary", "StoreBaeltTicketLybrary\StoreBaeltTicketLybrary.csproj", "{00AA1FA1-E7B2-405E-B19B-CFEC5B77620F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{7626B705-44F5-47B3-B388-69EDB4D771BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7626B705-44F5-47B3-B388-69EDB4D771BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7626B705-44F5-47B3-B388-69EDB4D771BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00AA1FA1-E7B2-405E-B19B-CFEC5B77620F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00AA1FA1-E7B2-405E-B19B-CFEC5B77620F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00AA1FA1-E7B2-405E-B19B-CFEC5B77620F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00AA1FA1-E7B2-405E-B19B-CFEC5B77620F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

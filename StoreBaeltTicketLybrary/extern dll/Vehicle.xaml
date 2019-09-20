@@ -1,0 +1,40 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace TicketLybrary
+{
+   public  abstract class Vehicle
+   {
+       public string _licens;
+
+       public string Licenseplate
+       {
+           get => _licens;
+           set
+           {
+               if (value.Length > 7)
+               {
+                   throw new Exception("License plate must be more than 7 charaters ");
+               }
+               else
+               {
+                   _licens = value;
+               }
+
+           }
+       }
+
+       
+
+        public DateTime Date { get; set; }
+
+        public abstract string VehicleType();
+       
+
+        public abstract double Price();
+
+
+
+   }
+}

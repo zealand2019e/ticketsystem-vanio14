@@ -6,22 +6,17 @@ namespace TicketLybrary
 {
    public class MC:Vehicle
     {
-        public override int Discount()
-        {
-            throw new NotImplementedException();
-        }
-
+        
         /// <summary>
         /// Show Motorcycle price
         /// </summary>
         /// <returns></returns>
-
+       
         public override double Price()
         {
             double price=125;
             return price;
         }
-
         /// <summary>
         /// Show Motorcycle Vehicle type
         /// </summary>
